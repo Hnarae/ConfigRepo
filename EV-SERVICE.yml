@@ -7,7 +7,7 @@ spring:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
 
 
-hm-service:
+ev-service:
   datasource:
     jdbc-url: jdbc:mysql://192.168.0.130:3306/ev_service?serverTimezone=UTC
     username: root
@@ -15,5 +15,5 @@ hm-service:
     maximum-pool-size: 3
     connection-test-query: SELECT 1
     driver-class-name: com.mysql.cj.jdbc.Driver
-    
+
 
