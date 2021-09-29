@@ -7,7 +7,7 @@ spring:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
 
 
-ev-service:
+rp-service:
   datasource:
     jdbc-url: jdbc:mysql://192.168.0.130:3306/rp_service?serverTimezone=UTC
     username: root
