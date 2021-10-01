@@ -9,11 +9,12 @@ spring:
 
 rp-service:
   datasource:
-    jdbc-url: jdbc:mysql://192.168.0.130:3306/rp_service?serverTimezone=UTC
+    jdbc-url: jdbc:mysql://192.168.0.130:3306/rp_service?serverTimezone=Asia/Seoul
     username: root
     password: 'root'
     maximum-pool-size: 3
     connection-test-query: SELECT 1
     driver-class-name: com.mysql.cj.jdbc.Driver
+    auto_
 
 
